@@ -35,7 +35,7 @@
 
   <property>
     <name>instance.zookeeper.timeout</name>
-    <value>2147483647</value>
+    <value>300000</value>
     <description>Zookeeper session timeout; max value when represented as milliseconds should be no larger than 2147483647</description>
   </property>
 

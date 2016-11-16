@@ -34,6 +34,12 @@
   </property>
 
   <property>
+    <name>instance.zookeeper.timeout</name>
+    <value>300s</value>
+    <description>Zookeeper session timeout; max value when represented as milliseconds should be no larger than 2147483647</description>
+  </property>
+
+  <property>
     <name>logger.dir.walog</name>
     <value>walogs</value>
     <description>The property only needs to be set if upgrading from 1.4 which used to store write-ahead logs on the local
